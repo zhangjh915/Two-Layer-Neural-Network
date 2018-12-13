@@ -1,3 +1,3 @@
-# Two Layer Neural Network Classifier on cifar10
+# Two Layer Neural Network Classifier
 ## Description:
 
