@@ -37,7 +37,7 @@ where <img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /> is 
 
 SGD with momentum typically has better performance than classic SGD. There are two main reasons. First is due to the gradients calculated by a small batch rather than the entire dataset in SGD, causing non-exact derivatives. And the exponentially weighed averages can provide us a better estimate which is closer to the actual derivate than the noisy calculations. The other reason lies in ravines. Ravines are common near local minimas in deep learning and SGD has troubles navigating them. SGD will tend to oscillate across the narrow ravine since the negative gradient will point down one of the steep sides rather than along the ravine towards the optimum. Momentum helps accelerate gradients in the right direction. The figure below illustrate this point (left: classic SGD, right: SGD with momentum).
 
-![alt text](/images/momentum.png)
+![alt text](/images/momentum.PNG)
 
 The RMSprop update algorithm is as follows:
 
